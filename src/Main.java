@@ -3,6 +3,7 @@ public class Main {
         int count = 1000;
         int cashback = 3;
         int percent = 100;
-        System.out.println(count * cashback / percent);
+        int sum = count * cashback / percent;
+        System.out.println(sum);
     }
 }
